@@ -1,11 +1,7 @@
 // Realiza descriptografia AES 128 , 
 
-
-
-
 /* decrypt.cpp
  * Performs decryption using AES 128-bit
- * @author Cecelia Wisniewska
  */
 #include <iostream>
 #include <cstring>
