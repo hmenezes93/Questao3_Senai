@@ -1,7 +1,5 @@
 // Realiza criptografia AES 128 , 
 
-// Baseado nas rotinas desenvolvidas por: Cecelia Wisniewska
-
 
 #include <iostream>
 #include <cstring>
@@ -139,7 +137,7 @@ void AESEncrypt(unsigned char * message, unsigned char * expandedKey, unsigned c
 int main() {
 
 	cout << "=============================" << endl;
-	cout << " Codificação 128-bit AES" << endl;
+	cout << " CodificaÃ§Ã£o 128-bit AES" << endl;
 	cout << "=============================" << endl;
 
 	char message[1024];
