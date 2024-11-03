@@ -1,6 +1,6 @@
 // Realiza descriptografia AES 128 , 
 
-// Baseado nas rotinas desenvolvidas por: Cecelia Wisniewska
+
 
 
 /* decrypt.cpp
@@ -185,7 +185,7 @@ int main() {
 	if (keyfile.is_open())
 	{
 		getline(keyfile, keystr); // The first line of file should be the key
-		cout << "Lê a chave (key) )128-bit do arqivo keyfile" << endl;
+		cout << "LÃª a chave (key) )128-bit do arqivo keyfile" << endl;
 		keyfile.close();
 	}
 
